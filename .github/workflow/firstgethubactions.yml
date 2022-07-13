@@ -6,4 +6,4 @@ jobs:
     run-on: ubuntu:latest
       steps: 
        - name: Echo string 
-         run: echo" This is first Github actions"
+         run: echo" This is first Github action"
