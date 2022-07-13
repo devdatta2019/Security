@@ -3,6 +3,7 @@ on: [push]
 
 jobs:
   run-shell-commands: 
-    runs-on: "ubuntu:latest"
+    runs-on: buntu:latest
     steps: 
-      - name: "Echo string"
+      - name: Echo a string"
+        run: echo "This is first github action"
