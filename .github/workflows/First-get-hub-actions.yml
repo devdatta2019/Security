@@ -1,11 +1,9 @@
---- 
-Name: "Run shell commands"
-jobs: 
+name: Run shell commands
+on: [push]
+
+jobs:
   run-shell-commands: 
     run-on: "ubuntu:latest"
     steps: 
-      - 
-        name: "Echo string"
+      - name: "Echo string"
         run: "echo\" This is first Github action\""
-true: 
-  - push
