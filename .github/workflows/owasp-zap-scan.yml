@@ -1,4 +1,4 @@
-name: Owasp zap integration with Zap
+name: Owasp zap integration with Github
 on: [push]
 
 jobs:
