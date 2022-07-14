@@ -1,4 +1,4 @@
-name: Owasp zap Integration
+name: owasp zapIntegration 
 on: [push]
 
 jobs:
